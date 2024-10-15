@@ -11204,14 +11204,15 @@ body {
 }
 
 .image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
 
 }
 
 .image-container img{
-  max-width: 60%; /*adjust width*/
+  max-width: 85%; /*adjust width*/
   height: auto;
   width: 250px;
 }
